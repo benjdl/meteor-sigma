@@ -1,7 +1,7 @@
 Package.describe({
   name: "benj:sigma",
   summary: "Sigma is a library dedicated to graph drawing.",
-  version: "1.0.3",
+  version: "1.0.4",
   git: "https://github.com/benjdl/meteor-sigma"
 });
 
@@ -11,6 +11,7 @@ Package.onUse(function(api) {
     "sigma/sigma.min.js",
     "sigma/plugins/sigma.exporters.svg.js",
     "sigma/plugins/sigma.layout.forceAtlas2.min.js",
+    "sigma/plugins/sigma.layout.fruchtermanReingold.js",
     "sigma/plugins/sigma.parsers.cypher.js",
     "sigma/plugins/sigma.parsers.gexf.min.js",
     "sigma/plugins/sigma.parsers.json.min.js",
